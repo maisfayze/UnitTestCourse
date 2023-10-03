@@ -4,14 +4,33 @@
     <test name="Division Test">
         <classes>
             <class name="ExampleTest"></class>
-            <class name="Example2Test"></class>
-
         </classes>
 
     </test>
-<!--    <test name="Grade Test">-->
-<!--        <classes>-->
-<!--            <class name="Example2Test"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Grade Test">
+        <classes>
+            <class name="Example2Test"></class>
+        </classes>
+    </test>
+    <test name="Annotation">
+        <classes>
+            <class name="Example3"></class>
+        </classes>
+    </test>
+
+    <test name="String length">
+        <classes>
+            <class name="LengthTest"></class>
+        </classes>
+    </test>
+    <test name="Factorial ">
+        <classes>
+            <class name="FactorialTest"></class>
+        </classes>
+    </test>
+
+<!--    <listeners>-->
+<!--        <listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+<!--    </listeners>-->
+
 </suite>

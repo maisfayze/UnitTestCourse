@@ -11,6 +11,7 @@ public class Example2Test {
     public Object[][] dpMethod() {
         return new Object[][]{
                 {101, "Invalid"},
+                {95, "Invalid"},
                 {100000000, "Invalid"},
                 {90, "Excellent"},
                 {91, "Excellent"},
@@ -31,11 +32,16 @@ public class Example2Test {
                 {40, "Failed"},
                 {41, "Failed"},
                 {58, "Failed"},
+                {57, "Failed"},
                 {59, "Failed"},
                 {39, "Invalid"},
                 {0, "Invalid"},
                 {-10000000, "Invalid"},
                 {-1, "Invalid"},
+                {-520, "Invalid"},
+                {-1000, "Invalid"},
+
+
 
 
         };
